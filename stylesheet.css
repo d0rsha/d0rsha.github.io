@@ -8,7 +8,7 @@ p   {
 #header {
 	z-index: 1;
 	position: fixed;
-	width: 97.5%;
+	width: 100%;
 	margin-top: -11px;
 	height: 60px;
 	background-color: #bb8284;
