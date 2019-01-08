@@ -1,0 +1,145 @@
+@import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: #7f867f;
+  padding: 10px;
+  margin: 10px;
+  width: 600px;
+  height: 700px;
+  margin-top: 10px;
+  
+  line-height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}           
+
+<-- Headings -->
+h1{
+font-size: 40px;
+text-decoration: underline;
+}
+h4{
+-webkit-margin-after: 0;
+line-height: 30px;
+color:white;
+font-weight: normal;
+font-size: 1em;
+text-align: left;
+}
+
+
+<-- Inside flex-item -->
+#TopContent{
+    width: 100%;
+    height: 140px;
+    margin:auto;
+    padding: 15px;
+}
+.BottomContent{
+    line-height: 400px;
+    display:inline-block;
+    width: 100%;
+    margin:auto;
+}
+
+
+div {
+    border-radius: 5px;
+    text-align: center;
+}
+p   {
+    font-size: 1em;
+}
+
+#header {
+    width: 60%;
+    height: 12%;
+    max-width: 60%; 
+    max-height: 12%;     
+    padding: 10px 35px;
+    margin: auto
+}
+body{
+    background: gray;
+}
+
+#footer {
+    height: 50px;
+    background-color: #bb8284;
+    clear: both;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #ffaabb;
+}
+
+
+
+<-- Link-Stuff --> 
+a:visited{
+    color: purple;
+}
+a:link {
+    color: blue;
+}
+a:active {
+    color: black;
+}
+
+<--   Button & menubar stuffs -->
+button{
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	border: #607d8b solid 5px;
+	padding: 3px;
+        cursor:pointer;
+}
+button:hover{
+	background-color: #657d8b;
+}
+button:visited{
+    border:  #607d8b solid 5px;
+}
+.bigbox{
+	padding: 10px 20px;
+	background-color: #e4e0e0;
+	border-style:solid;
+	border-color:black;
+	border-width:2px;
+}
+iframe{
+	border:2px solid #607d8b;
+}
+
+#Menubox{
+	margin:auto;
+        
+        
+}
+
+.item{
+	display:inline;
+	margin-left: 5px;
+	margin-right: 5px; 
+}
+
+
+
