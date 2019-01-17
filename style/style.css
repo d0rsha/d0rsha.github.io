@@ -1,5 +1,5 @@
 @import "compass/css3";
-
+  
 .flex-container {
   padding: 0;
   margin: 0;
@@ -95,9 +95,6 @@ body{
 <-- Link-Stuff --> 
 a:visited{
     color: purple;
-}
-a:link {
-    color: blue;
 }
 a:active {
     color: black;
